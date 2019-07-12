@@ -10,7 +10,11 @@ public class SQLOperatons {
         } else if (name.length() > 50) {
             System.out.println("name cannot exceed 50 characters");
 
+<<<<<<< HEAD
         } else if (age <= 0) {
+=======
+        } else if (age <= 0) {
+>>>>>>> firstbranch
             System.out.println("age cannot be negative");
         } else if (address.isEmpty()) {
             System.out.println("address is epmty");
